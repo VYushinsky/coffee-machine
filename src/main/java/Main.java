@@ -18,6 +18,7 @@ public class Main {
 
         Scanner br = new Scanner(System.in);
         String str;
+        
         while (!"turn off".equals(str = br.nextLine())) {
             String[] words = str.split(" ");
             if (words[0].equals("check")){
