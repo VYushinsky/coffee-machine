@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Machine machine = new Machine(1000, 1000,1000);
+        Machine machine = new Machine(Integer.parseInt(args[0]), Integer.parseInt(args[1]), Integer.parseInt(args[2]));
         System.out.println("Список команд: "
                 + "\ncheck - проверить заполненность резервуаров"
                 + "\nwater N - добавить N мл. воды"
